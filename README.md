@@ -1,4 +1,15 @@
+# Forum des Supermarchés Coopératifs français
+
+Ceci est une première version d'un forum de partage entre les différents projets français de supermarchés coopératifs.
+
+... description à améliorer !
+
+---
+
+*Readme original*
+
 # discourse
+
 Discourse application for IndieHosters network
 
 # How to use this image
