@@ -84,6 +84,7 @@ case $1 in
             option="";
             if [ "$cmd" = "dumpall" ] ; then
                 cmd=pg_dumpall
+                set -- -c "$@" # Include SQL commands to clean (drop) databases before recreating them.
             fi
         fi
         POSTGRES_USER=`grep POSTGRES_USER     env|cut -d= -f2|xargs`
