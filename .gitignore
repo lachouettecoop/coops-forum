@@ -1,2 +1,4 @@
 !data/assets/.gitkeep
 data/
+/docker-compose.yml
+/env
